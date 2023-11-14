@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{830B3FE2-1EF4-4ABA-8A02-A15A0FADAE51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Relativity.DataExchange.Wrapper</RootNamespace>
+    <AssemblyName>Relativity.DataExchange.Wrapper.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IImportJob.cs" />
+    <Compile Include="IImageBulkArtifactImportJob.cs" />
+    <Compile Include="IImageBulkArtifactImportSettings.cs" />
+    <Compile Include="IImportSettings.cs" />
+    <Compile Include="IBulkArtifactImportSettings.cs" />
+    <Compile Include="ImportClientPluginFactory.cs" />
+    <Compile Include="ImportConnectionInfo.cs" />
+    <Compile Include="ImportProcessProgressEventArgs.cs" />
+    <Compile Include="ImportSettingsBase.cs" />
+    <Compile Include="PluginConfiguration.cs" />
+    <Compile Include="ImportContext.cs" />
+    <Compile Include="ImportCompleteEventArgs.cs" />
+    <Compile Include="ImportProgressEventArgs.cs" />
+    <Compile Include="ImportFatalExceptionEventArgs.cs" />
+    <Compile Include="IBulkArtifactImportJob.cs" />
+    <Compile Include="ImportClientPluginSearch.cs" />
+    <Compile Include="IImportClient.cs" />
+    <Compile Include="ImportErrorEventArgs.cs" />
+    <Compile Include="ImportMessageEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
