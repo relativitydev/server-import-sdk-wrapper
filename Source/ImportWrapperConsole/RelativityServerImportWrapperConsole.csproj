@@ -50,7 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Relativity.DataExchange.Wrapper.Core\Relativity.Server.DataExchange.Wrapper.Core.csproj">
+    <ProjectReference Include="..\Relativity.Server.DataExchange.Wrapper.Core\Relativity.Server.DataExchange.Wrapper.Core.csproj">
       <Project>{830b3fe2-1ef4-4aba-8a02-a15a0fadae51}</Project>
       <Name>Relativity.Server.DataExchange.Wrapper.Core</Name>
     </ProjectReference>

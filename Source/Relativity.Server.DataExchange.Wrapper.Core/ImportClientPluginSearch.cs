@@ -92,7 +92,7 @@
 
 			// Note: You MUST use a specific enough filename filter for your plugins and prevent MEF from trying
 			//       to do things like load native binaries.
-			this.catalog = new DirectoryCatalog(pluginDirectory, "Relativity.DataExchange.Wrapper.*.dll");
+			this.catalog = new DirectoryCatalog(pluginDirectory, "Relativity.Server.DataExchange.Wrapper.*.dll");
 			this.container = new CompositionContainer(catalog);
 			this.ImportClients.Clear();
 			container.ComposeExportedValue("ImportConnectionInfo", connectionInfo);

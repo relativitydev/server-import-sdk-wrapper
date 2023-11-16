@@ -2,9 +2,9 @@
 {
 	/// <summary>
 	/// Represents image or production-based import settings.
-	/// Implements the <see cref="Relativity.DataExchange.Wrapper.IImportSettings" />
+	/// Implements the <see cref="Relativity.Server.DataExchange.Wrapper.IImportSettings" />
 	/// </summary>
-	/// <seealso cref="Relativity.DataExchange.Wrapper.IImportSettings" />
+	/// <seealso cref="Relativity.Server.DataExchange.Wrapper.IImportSettings" />
 	public interface IImageBulkArtifactImportSettings : IImportSettings
 	{
 		int ArtifactTypeId

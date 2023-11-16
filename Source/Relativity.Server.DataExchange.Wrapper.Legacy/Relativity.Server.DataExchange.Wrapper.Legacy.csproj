@@ -200,12 +200,12 @@
     <Content Include="oi\unmanaged\wvcore-R1.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Relativity.DataExchange.Wrapper.Core\Relativity.Server.DataExchange.Wrapper.Core.csproj">
+    <ProjectReference Include="..\Relativity.Server.DataExchange.Wrapper.Core\Relativity.Server.DataExchange.Wrapper.Core.csproj">
       <Project>{830b3fe2-1ef4-4aba-8a02-a15a0fadae51}</Project>
       <Name>Relativity.Server.DataExchange.Wrapper.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="..\Relativity.DataExchange.Wrapper.Shared\Relativity.DataExchange.Wrapper.Shared.projitems" Label="Shared" />
+  <Import Project="..\Relativity.Server.DataExchange.Wrapper.Shared\Relativity.Server.DataExchange.Wrapper.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Relativity.OutsideIn.2018.6.1\build\Relativity.OutsideIn.targets" Condition="Exists('..\packages\Relativity.OutsideIn.2018.6.1\build\Relativity.OutsideIn.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

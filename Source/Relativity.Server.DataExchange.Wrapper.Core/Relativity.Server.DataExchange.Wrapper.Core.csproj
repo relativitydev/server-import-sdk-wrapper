@@ -7,8 +7,8 @@
     <ProjectGuid>{830B3FE2-1EF4-4ABA-8A02-A15A0FADAE51}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Relativity.DataExchange.Wrapper</RootNamespace>
-    <AssemblyName>Relativity.DataExchange.Wrapper.Core</AssemblyName>
+    <RootNamespace>Relativity.Server.DataExchange.Wrapper</RootNamespace>
+    <AssemblyName>Relativity.Server.DataExchange.Wrapper.Core</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

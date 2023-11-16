@@ -5,13 +5,13 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelativityServerImportWrapperConsole", "ImportWrapperConsole\RelativityServerImportWrapperConsole.csproj", "{79BCA10B-9A9D-4129-B9F9-A3C99E5240E8}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Relativity.Server.DataExchange.Wrapper.Shared", "Relativity.DataExchange.Wrapper.Shared\Relativity.Server.DataExchange.Wrapper.Shared.shproj", "{FA954652-1E2D-42E7-A7CC-3E28093C6E94}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Relativity.Server.DataExchange.Wrapper.Shared", "Relativity.Server.DataExchange.Wrapper.Shared\Relativity.Server.DataExchange.Wrapper.Shared.shproj", "{FA954652-1E2D-42E7-A7CC-3E28093C6E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relativity.Server.DataExchange.Wrapper.Sdk", "Relativity.DataExchange.Wrapper.Sdk\Relativity.Server.DataExchange.Wrapper.Sdk.csproj", "{3677DE28-21FA-40F1-A875-E409709C1910}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relativity.Server.DataExchange.Wrapper.Sdk", "Relativity.Server.DataExchange.Wrapper.Sdk\Relativity.Server.DataExchange.Wrapper.Sdk.csproj", "{3677DE28-21FA-40F1-A875-E409709C1910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relativity.Server.DataExchange.Wrapper.Legacy", "Relativity.DataExchange.Wrapper.Legacy\Relativity.Server.DataExchange.Wrapper.Legacy.csproj", "{24E68688-A6FE-4CE5-A9BB-8337450B3CF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relativity.Server.DataExchange.Wrapper.Legacy", "Relativity.Server.DataExchange.Wrapper.Legacy\Relativity.Server.DataExchange.Wrapper.Legacy.csproj", "{24E68688-A6FE-4CE5-A9BB-8337450B3CF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relativity.Server.DataExchange.Wrapper.Core", "Relativity.DataExchange.Wrapper.Core\Relativity.Server.DataExchange.Wrapper.Core.csproj", "{830B3FE2-1EF4-4ABA-8A02-A15A0FADAE51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relativity.Server.DataExchange.Wrapper.Core", "Relativity.Server.DataExchange.Wrapper.Core\Relativity.Server.DataExchange.Wrapper.Core.csproj", "{830B3FE2-1EF4-4ABA-8A02-A15A0FADAE51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,8 +43,7 @@ Global
 		SolutionGuid = {43F9C538-2537-4142-9593-D89CE6F8301F}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Relativity.DataExchange.Wrapper.Shared\Relativity.DataExchange.Wrapper.Shared.projitems*{24e68688-a6fe-4ce5-a9bb-8337450b3cf2}*SharedItemsImports = 4
-		Relativity.DataExchange.Wrapper.Shared\Relativity.DataExchange.Wrapper.Shared.projitems*{3677de28-21fa-40f1-a875-e409709c1910}*SharedItemsImports = 4
-		Relativity.DataExchange.Wrapper.Shared\Relativity.DataExchange.Wrapper.Shared.projitems*{fa954652-1e2d-42e7-a7cc-3e28093c6e94}*SharedItemsImports = 13
+		Relativity.Server.DataExchange.Wrapper.Shared\Relativity.Server.DataExchange.Wrapper.Shared.projitems*{24e68688-a6fe-4ce5-a9bb-8337450b3cf2}*SharedItemsImports = 4
+		Relativity.Server.DataExchange.Wrapper.Shared\Relativity.Server.DataExchange.Wrapper.Shared.projitems*{3677de28-21fa-40f1-a875-e409709c1910}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal

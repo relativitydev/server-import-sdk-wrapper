@@ -4,9 +4,9 @@
 
 	/// <summary>
 	/// Represents an import job to mass import image or production-based artifacts.
-	/// Implements the <see cref="Relativity.DataExchange.Wrapper.IImportJob" />
+	/// Implements the <see cref="Relativity.Server.DataExchange.Wrapper.IImportJob" />
 	/// </summary>
-	/// <seealso cref="Relativity.DataExchange.Wrapper.IImportJob" />
+	/// <seealso cref="Relativity.Server.DataExchange.Wrapper.IImportJob" />
 	public interface IImageBulkArtifactImportJob : IImportJob
 	{
 		/// <summary>
