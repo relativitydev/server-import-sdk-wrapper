@@ -45,5 +45,6 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Relativity.Server.DataExchange.Wrapper.Shared\Relativity.Server.DataExchange.Wrapper.Shared.projitems*{24e68688-a6fe-4ce5-a9bb-8337450b3cf2}*SharedItemsImports = 4
 		Relativity.Server.DataExchange.Wrapper.Shared\Relativity.Server.DataExchange.Wrapper.Shared.projitems*{3677de28-21fa-40f1-a875-e409709c1910}*SharedItemsImports = 4
+		Relativity.Server.DataExchange.Wrapper.Shared\Relativity.Server.DataExchange.Wrapper.Shared.projitems*{fa954652-1e2d-42e7-a7cc-3e28093c6e94}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

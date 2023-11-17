@@ -40,11 +40,11 @@
 			// Note: the legacy API does NOT support bearer token auth!
 			ImportConnectionInfo connectionInfo = new ImportConnectionInfo
 			{
-				Password = "Test1234!",
-				UserName = "relativity.admin@kcura.com",
+				Password = "PASSWORD",
+				UserName = "USERNAME",
 				UseRsaBearerToken = false,
-				WebServiceUrl = "https://P-DV-VM-SEW1TIE/RelativityWebApi/",
-				WorkspaceId = 1018580
+				WebServiceUrl = "https://HOSTNAME/RelativityWebApi/",
+				WorkspaceId = 1234567
 			};
 
 			// Note: specify the full path where each plugin directory is located.
